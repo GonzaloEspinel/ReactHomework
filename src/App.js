@@ -66,7 +66,7 @@ class App extends Component {
           <Img
               id={painters.id}
               key={painters.id}
-              url={painters.url}
+              url={painters.image}
               clickImgID={this.clickImgID}
             />
           ))}        
